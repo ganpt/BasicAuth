@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>login page </title>
+</head>
+<body>
+<form method="post">
+  <input type="hidden" name="_csrf" value="<%=csrfToken %>" />
+  <span>Email:</span>
+  <input type="email" name="email" required="required"/><br/><span>Password:</span>
+  <input type="password" name="password" required="required"/><br/>
+  <input type="submit"/>
+</form>
+</body>
+</html>
